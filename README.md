@@ -4,9 +4,9 @@
 
 今後，後輩たちによって加筆されていくことを望む．
 
-> GitHub Repository: [https://github.com/torica-org/electronics-docs/]()
+> GitHub Repository: [https://github.com/torica-org/electronics-docs/](https://github.com/torica-org/electronics-docs/)
 > 
-> GitHub Pages: [https://torica-org.github.io/electronics-docs/]()
+> GitHub Pages: [https://torica-org.github.io/electronics-docs/](https://torica-org.github.io/electronics-docs/)
 
 <br>
 
