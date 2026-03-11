@@ -187,9 +187,9 @@
 |10/16|基板到着|
 |11/07|センサーマウント試作完成|
 |11/08|EM基板設計完了|
-|11/20|EM製作完了|
+|11/20|EM完成|
 |11/22-23|理大祭展示|
-|12/08|EMソフト完成|
+|12/08|EMデバッグ|
 
 ---
 
@@ -205,8 +205,8 @@
 <br>
 <table align="center">
   <tr>
-    <th><a href="/1-開発工程.md">&lt;&lt; 1-開発工程</a></th>
-    <th><a href="../">Home</a></th>
-    <th><a href="/3-Analysis.md">3-Analysis &gt;&gt;</a></th>
+    <th><a href="1-開発工程.md">&lt;&lt; 1-開発工程</a></th>
+    <th><a href="../README.md">Home</a></th>
+    <th><a href="3-Analysis.md">3-Analysis &gt;&gt;</a></th>
   </tr>
 </table>
