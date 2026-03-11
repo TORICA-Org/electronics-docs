@@ -1,6 +1,12 @@
 # Planning（計画）
 > [00kenno](https://github.com/00kenno)
 
+以下に示すような内容を確定し，計画書にまとめる．
+
+<br>
+
+
+
 ## 目標の定義
 
 班としての目標を決めると良い．
@@ -22,9 +28,10 @@
 
 
 
-## 必要な機能などの要求定義
+## 要求定義
 
-ここは今まで鳥人間コンテストという本番環境を経験してきた己や先人たちの知識がものをいう．
+必要な機能などの要求定義では，今まで鳥人間コンテストという本番環境を経験してきた
+己や先人たちの知識がものをいう．
 
 23代電装班長や25代電装班長の資料が参考になる．
 
@@ -148,6 +155,8 @@
 
 この時点では，大まかなスケジュールを確定すれば十分である．
 
+[*スケジュール通りには進まない（迷言）*](https://geode-kicker-e37.notion.site/TORICA-25-d7171c4f52474fd9b70f506ea2b930a4)
+
 <br>
 
 ### （例）26代
@@ -195,11 +204,8 @@
 <br>
 <table align="center">
   <tr>
-    <th><a href="/1-開発工程.md">&lt;&lt; 1-開発工程</a><th>
-    <th><a href="/">Home</a><th>
-    <th><a href="/3-Analysis.md">3-Analysis &gt;&gt;</a><th>
-  </tr>
-  <tr>
-    <td></td><td></td><td></td>
+    <th><a href="/1-開発工程.md">&lt;&lt; 1-開発工程</a></th>
+    <th><a href="/">Home</a></th>
+    <th><a href="/3-Analysis.md">3-Analysis &gt;&gt;</a></th>
   </tr>
 </table>
