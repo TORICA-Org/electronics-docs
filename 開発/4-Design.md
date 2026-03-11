@@ -19,8 +19,8 @@ PowerPointや[draw.io](https://www.drawio.com)を用いて設計図を作り，
 
 ## （例）26代-設計書
 
-![0-26代設計書](../assets/0-26代設計書.png)
-![1-26代設計書](../assets/1-26代設計書.png)
+![0-26代設計書](../assets/開発/0-26代設計書.png)
+![1-26代設計書](../assets/開発/1-26代設計書.png)
 
 <br>
 
