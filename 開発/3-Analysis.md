@@ -1,8 +1,7 @@
 # Analysis（分析）
 > [00kenno](https://github.com/00kenno)
 
-[2-Planning](/2-Planning.md)でできた計画書を分析し，計画を遂行するために
-必要なことを仕様書としてまとめる．
+計画書を分析し，計画を遂行するために必要なことを仕様書としてまとめる．
 
 <br>
 
@@ -123,12 +122,3 @@
 <br>
 
 
-
-<br>
-<table align="center">
-  <tr>
-    <th><a href="2-Planning.md">&lt;&lt; 2-Planning</a></th>
-    <th><a href="../README.md">Home</a></th>
-    <th><a href="4-Design.md">4-Design &gt;&gt;</a></th>
-  </tr>
-</table>

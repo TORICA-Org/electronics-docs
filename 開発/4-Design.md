@@ -30,13 +30,3 @@ PowerPointや[draw.io](https://www.drawio.com)を用いて設計図を作り，
 
 <br>
 
-
-
-<br>
-<table align="center">
-  <tr>
-    <th><a href="3-Analysis.md">&lt;&lt; 3-Analysis</a></th>
-    <th><a href="../README.md">Home</a></th>
-    <th><a href="5-Development.md">5-Development &gt;&gt;</a></th>
-  </tr>
-</table>
