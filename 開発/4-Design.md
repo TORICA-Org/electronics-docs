@@ -2,10 +2,11 @@
 
 仕様書を参考にシステム全体の構造を決定する．
 
-PowerPointや[draw.io](https://www.drawio.com)を用いて設計図を作り，
-システムがどう動くのかわかるようにする．
-
+システムがどう動くのかわかるように設計図を作り，
 図では伝わらない仕様を書き加え，設計書としてまとめる．
+
+設計図の作成は，PowerPointや[draw.io](https://www.drawio.com)を用いて個人で行うか，
+[Googleスライド](https://docs.google.com/presentation/)の強力な共有機能を用いて複数人で行うことを勧める．
 
 <br>
 
