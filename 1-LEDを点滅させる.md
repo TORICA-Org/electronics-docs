@@ -104,11 +104,9 @@ void loop() {
 
 ### 2. LEDの配線場所を`GPIO5`に変更し，プログラムを修正したうえで動作を確認しなさい．
 [ヒント]
+- あれや
+- これや
 
-<details>
-<summary>[解答]</summary>
-<!--この下に1行空行を挟む-->
-  
 <details>
 <summary>[解答]</summary>
 <!--この下に1行空行を挟む-->
@@ -125,5 +123,4 @@ void loop() {
   delay(800);  
 }
 ```
-</details>
 </details>
