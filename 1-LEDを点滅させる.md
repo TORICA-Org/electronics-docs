@@ -65,7 +65,7 @@ void loop() {
 
 ```
 
-ここに出てきた`pinMode()`や`digitalWrite()`は特別な関数です．
+ここに出てきた`pinMode()`や`digitalWrite()`はArduino IDEでだけ使える特別な関数です．
 [このページ](https://www.musashinodenpa.com/arduino/ref/)で確認してみてください．
 
 しかし，このままではマイコンに内蔵されたLEDが光るだけで，せっかく繋いだLEDは光りません．
