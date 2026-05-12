@@ -21,9 +21,9 @@
 
 </details>
 
-<details><summary>
-
 ---
+
+<details><summary>
 
 ## 2. 各電装部ごとに同時接続
   
