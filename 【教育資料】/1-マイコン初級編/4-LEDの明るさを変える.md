@@ -47,7 +47,7 @@ LEDに流れる平均的な電力を変えている と考えるとわかりや�
 　　analogWrite()はArduino IDEでだけ使える特別な関数です．
     [このページ](https://www.musashinodenpa.com/arduino/ref/)で確認してみてください．
 
-    ### 3. プログラムをマイコンに書き込む
+  ### 3. プログラムをマイコンに書き込む  
     PCとマイコンをUSBケーブルでつなぎます．
     Arduino IDEでボードの種類とCOMポートを選択します．
 
