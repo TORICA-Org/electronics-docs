@@ -38,7 +38,7 @@ LEDに流れる平均的な電力を変えている と考えるとわかりや�
                  delay(10);
             }
 
-  // ゆっくり暗くする
+ 
            for (int i = 255; i >= 0; i--) 
            {
              analogWrite(ledPin, i);
