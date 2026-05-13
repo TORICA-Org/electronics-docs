@@ -18,9 +18,9 @@ LEDに流れる平均的な電力を変えている と考えるとわかりや�
 
 
    ### 2. プログラムを準備する
-       Arduino IDEに以下のプログラムをコピーしましょう．
-
-       ```cpp
+    Arduino IDEに以下のプログラムをコピーしましょう．
+     
+    ```cpp
        const int led = 0;
 
        void setup()
