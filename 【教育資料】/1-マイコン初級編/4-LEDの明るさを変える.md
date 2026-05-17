@@ -33,26 +33,20 @@ Aruduinoは2.5Vのような中間の電圧を直接出すことはできませ�
  ```cpp
  const int led = 0;
 
- void setup()
-       {
-         pinMode(led, OUTPUT);
-       }
+ void setup(){
+   pinMode(led, OUTPUT);
+ }
 
-       void loop()
-       {
-           for (int i = 0; i <= 255; i++)
-           {
-                analogWrite(ledPin, i);
-                 delay(10);
-            }
-
- 
-           for (int i = 255; i >= 0; i--) 
-           {
-             analogWrite(ledPin, i);
-             delay(10);
-           }
-        }
+ void loop(){
+   for (int i = 0; i <= 255; i++){
+     analogWrite(ledPin, i);
+     delay(10);
+   }
+   for (int i = 255; i >= 0; i--){
+     analogWrite(ledPin, i);
+     delay(10);
+   }
+ }
 ```
 　analogWrite()はArduino IDEでだけ使える特別な関数です．
    [このページ](https://www.musashinodenpa.com/arduino/ref/)で確認してみてください．
