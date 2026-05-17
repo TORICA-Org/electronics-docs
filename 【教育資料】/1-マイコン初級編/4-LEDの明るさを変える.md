@@ -1,5 +1,5 @@
 # 4 - LEDの明るさを変える
-`analogErite()`を使います。
+`analogWrite()`を使います。
 
 `analogWrite() `は
 ピンから出す電圧の強さを0~255の段階で調整する関数です。
