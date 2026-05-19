@@ -57,5 +57,51 @@ Arduino IDEでボードの種類とCOMポートを選択します．
 
 ### 4. 動作確認
 LEDの明るさが変わっていたら完成です‼‼   
-   
-   
+
+## 練習問題
+### 1. 三角関数を用いて，LEDの明るさを変化させなさい．
+[ヒント] 
+- `sin()`関数または`cos()`関数があります．
+- `sin()`や`cos()`の引数はラジアンです．
+- `PI`で円周率が使えます．
+
+<details>
+<summary>[解答]</summary>
+<!--この下に1行空行を挟む-->
+  
+```cpp
+const int led = 0;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+float rad = 0.0;
+void loop() {
+  rad += 0.1;
+  float offsetted_sin = sin(rad) + 1;
+  int value = (int)(255.0*offsetted_sin/2);
+  analogWrite(led, value);
+}
+```
+</details>
+
+### 2. しなさい．
+[ヒント]
+- ます
+
+<details>
+<summary>[解答]</summary>
+<!--この下に1行空行を挟む-->
+  
+```cpp
+const int led = 5;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+}
+```
+</details>
