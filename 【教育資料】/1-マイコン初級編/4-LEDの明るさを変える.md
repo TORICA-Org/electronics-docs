@@ -39,11 +39,11 @@ Aruduinoは2.5Vのような中間の電圧を直接出すことはできませ�
 
  void loop(){
    for (int i = 0; i <= 255; i++){
-     analogWrite(ledPin, i);
+     analogWrite(led, i);
      delay(10);
    }
    for (int i = 255; i >= 0; i--){
-     analogWrite(ledPin, i);
+     analogWrite(led, i);
      delay(10);
    }
  }
