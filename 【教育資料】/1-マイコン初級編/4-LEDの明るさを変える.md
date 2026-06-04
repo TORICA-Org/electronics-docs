@@ -70,18 +70,21 @@ LEDの明るさが変わっていたら完成です‼‼
 <!--この下に1行空行を挟む-->
   
 ```cpp
-const int led = 0;
+const int led = 0; // int型のグローバル変数`led`を定義＆`0`で初期化
 
 void setup() {
-  pinMode(led, OUTPUT);
+  pinMode(led, OUTPUT); // led（つまりGPIO0）を出力用に設定
 }
 
-float rad = 0.0;
+float rad = 0.0; // `int`型のグローバル変数`rad`を定義＆`0.0`で初期化
+// ※グローバル変数はずっと残る
 void loop() {
-  rad += 0.1;
-  float offsetted_sin = sin(rad) + 1;
-  int value = (int)(255.0*offsetted_sin/2);
-  analogWrite(led, value);
+  rad += 0.1; // `rad`に0.1加算
+  float offsetted_sin = sin(rad) + 1.0; // 値域を-1~1から0~2に変換し，ローカル変数`offsetted_sin`に代入
+  // ※ローカル変数は`loop()`が終わると無くなる
+  int value = (int)(offsetted_sin*255.0/2.0); // 値域を0~2から0~255に変換し，`int`型にキャストしてローカル変数`value`に代入
+  analogWrite(led, value); // `value`に応じた明るさで点灯
+  delay(100); // 一時停止: 100ms
 }
 ```
 </details>
