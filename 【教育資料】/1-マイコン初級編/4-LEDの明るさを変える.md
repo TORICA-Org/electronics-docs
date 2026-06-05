@@ -26,6 +26,7 @@ Aruduinoは2.5Vのような中間の電圧を直接出すことはできませ�
  ### 1. ブレッドボード上で配線する
  以下の図のように配線します。しっかりさしましょう。
 
+<img width="444" height="212" alt="スクリーンショット 2026-06-05 184519" src="https://github.com/user-attachments/assets/a80d076c-f24d-4248-b8d9-345bd2a9c898" />
 
  ### 2. プログラムを準備する
  Arduino IDEに以下のプログラムをコピーしましょう．
