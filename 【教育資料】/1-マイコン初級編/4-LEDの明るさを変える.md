@@ -90,22 +90,39 @@ void loop() {
 ```
 </details>
 
-### 2. しなさい．
+### 2. 「練習問題1」の解答を基に、LEDがだんだん速く点滅するようにしなさい．
 [ヒント]
-- ます
+- `rad`には変数`speed`を加算します
+- `speed`の数値はループごとに増やします
 
 <details>
 <summary>[解答]</summary>
 <!--この下に1行空行を挟む-->
   
 ```cpp
-const int led = 5;
+const int led = 0; // int型のグローバル変数`led`を定義＆`0`で初期化
 
 void setup() {
-  pinMode(led, OUTPUT);
+  pinMode(led, OUTPUT); // led（つまりGPIO0）を出力用に設定
 }
 
+float rad = 0.0; // float型のグローバル変数`rad`を定義＆`0.0`で初期化
+float speed = 0.01; // 【追加】float型のグローバル変数`speed`（変化の速さ）を定義＆`0.01`で初期化
+
 void loop() {
+  rad += speed; // 【変更】固定値0.1の代わりに、変数`speed`を加算
+  speed += 0.0005; // 【追加】毎ループで`speed`を少しずつ大きくして加速させる
+
+  // 【追加】速くなりすぎたら、元の速度と角度にリセットする
+  if (speed > 0.4) {
+    speed = 0.01;
+    rad = 0.0;
+  }
+
+  float offsetted_sin = sin(rad) + 1.0; // 値域を-1~1から0~2に変換し，ローカル変数`offsetted_sin`に代入
+  int value = (int)(offsetted_sin * 255.0 / 2.0); // 値域を0~2から0~255に変換し，`int`型にキャストしてローカル変数`value`に代入
+  analogWrite(led, value); // `value`に応じた明るさで点灯
+  delay(50); // 一時停止: 50ms（短いほど滑らかに加速します）
 }
 ```
 </details>
