@@ -32,7 +32,7 @@ Aruduinoは2.5Vのような中間の電圧を直接出すことはできませ�
  Arduino IDEに以下のプログラムをコピーしましょう．
      
  ```cpp
- const int led = 0;
+ const int led = 9;
 
  void setup(){
    pinMode(led, OUTPUT);
