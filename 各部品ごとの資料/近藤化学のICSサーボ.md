@@ -41,7 +41,6 @@ Raspberry Pi Picoなどの場合でも、ICS変換基板のスイッチは「実
 の内部ではUART通信が初期化されています。   
 （`Serial.begin(115200);`などというコードと同等のものです。見覚えがある人が多いと思います。）
 
-
 その際、マイコン初学者にとっては理解し難いオプションが指定されています。
 ```cpp
 bool IcsHardSerialClass::begin()
@@ -51,7 +50,7 @@ bool IcsHardSerialClass::begin()
     return false;
   }
 
-  icsHardSerial->begin(baudRate,SERIAL_8E1); // この行が`Serial.begin()`に相当します。
+  icsHardSerial->begin(baudRate,SERIAL_8E1); // この行がSerial.begin()に相当します。
   icsHardSerial->setTimeout(timeOut);
   pinMode(enPin, OUTPUT);
   enLow();
