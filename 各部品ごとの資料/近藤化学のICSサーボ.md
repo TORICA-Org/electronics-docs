@@ -7,6 +7,9 @@
 
 解説してくれているサイトをまとめました。
 
+## 仕様書
+[KRS-403xHVseries](https://kondo-robot.com/w/wp-content/uploads/KRs-403xManual.pdf)
+
 ## ICS通信
 UARTの送受信（TXとRX）を1本の通信線でおこなう、半二重通信です。
 
