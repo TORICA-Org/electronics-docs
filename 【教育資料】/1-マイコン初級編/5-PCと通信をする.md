@@ -88,6 +88,44 @@ void loop() {
 
 シリアルモニタで好きな英数字(例：A）を打ち込んで、下の画面にReturn:Aが表示されれば、PCからマイコンデータが届き、それをマイコンが正しく処理して送り返させています。
 
+## 練習問題
+### 1. PCから特定の文字を送ることで、LEDのON/OFFを切り替えられるようにしなさい. 
+
+<details>
+<summary>[解答]</summary>
+<!--この下に1行空行を挟む-->
+
+```cpp
+const int LEDpin = 0; // LEDを接続したピン番号
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(LEDpin, OUTPUT); // LEDピンを出力用に設定
+  
+  // 引き続き、起動時に一度だけPCへ挨拶を送る
+  Serial.println("Hello World!");
+}
+
+void loop() {
+  // もしPCからデータが届いていたら
+  if (Serial.available() > 0) {
+    
+    // 届いたデータを1つ読み取って変数に入れる
+    char incomingData = Serial.read();
+    
+    // 届いた文字に応じてLEDを制御する
+    if (incomingData == 'o') {
+      digitalWrite(LEDpin, HIGH); // 'o' なら点灯
+      Serial.println("LED turned ON!");
+    } 
+    else if (incomingData == 'x') {
+      digitalWrite(LEDpin, LOW);  // 'x' なら消灯
+      Serial.println("LED turned OFF!");
+    }
+  }
+}
+  ```
+</details>
 
   
 
