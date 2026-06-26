@@ -10,6 +10,9 @@
 ## 仕様書
 [KRS-403xHVseries](https://kondo-robot.com/w/wp-content/uploads/KRs-403xManual.pdf)
 
+## コマンドリファレンス
+[ICS3.5/3.6 ソフトウェアマニュアルコマンドリファレンス](https://kondo-robot.com/w/wp-content/uploads/ICS3.5_3.6_SoftwareManual_2_9.pdf)
+
 ## ICS通信
 UARTの送受信（TXとRX）を1本の通信線でおこなう、半二重通信です。
 
