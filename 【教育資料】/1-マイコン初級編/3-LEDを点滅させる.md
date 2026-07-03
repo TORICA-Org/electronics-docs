@@ -16,7 +16,7 @@
 以下の図のように配線します．**奥まで差し込むこと！**
 <img width="1010" height="649" alt="image" src="https://github.com/user-attachments/assets/c5f5a039-6c4e-4579-a1d2-9b18e14119fb" />
 
-配線図はパワポとかで作る．
+
 
 ### 2. プログラムを準備する
 Arduino IDEに以下のプログラムをコピーしましょう．
