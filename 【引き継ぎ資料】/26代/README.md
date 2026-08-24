@@ -1,5 +1,5 @@
 # 26代
-- 3D，PCB，SoftwareのFMは<https://github.com/torica-org/2026-fm-archives>にまとめる．
+- 3D，PCB，SoftwareのFMは[2026-fm-archives](https://github.com/torica-org/2026-fm-archives)にまとめる．
 
 ## 電装設計・全体システム
 - [通信の構成](電装設計・全体システム/通信の構成.md)
